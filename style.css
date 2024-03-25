@@ -1,0 +1,59 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.box{
+    border: 1px solid;
+    padding: 1rem;
+    height: 22rem;
+    width: 17rem;
+    text-align: center;
+}
+
+.box i{
+    font-size: 3rem;
+}
+
+.box button{
+    width: 10rem;
+    border-radius: 100px;
+    height: 2rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.box1{
+    border: 1px solid;
+    padding: 1rem;
+    height: 22rem;
+    width: 17rem;
+    text-align: center;
+    background-color:rgb(226, 46, 166);
+    color: white;
+}
+
+.box1 i{
+    font-size: 3rem;
+}
+
+.box1 button{
+    width: 10rem;
+    border-radius: 100px;
+    height: 2rem;
+    background-color: white;
+    color: rgb(226, 46, 166);
+    font-weight: bold;
+    border-color: white;
+}
+
+@media only screen and (max-width: 720px) {
+    .container{
+    flex-direction: column;
+    height: 230vh;
+    }
+}
